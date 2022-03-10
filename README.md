@@ -8,8 +8,6 @@ As a player, I want my game to recognize when I make a match, as well as when I 
 
 As a player, I want my game to accumulate points with each match. 
 
-As a player, I want to know how many moves I made.
-
 As a player, I want my game to recognize when I did not make a match.
 
 As a player, I want to be informed of how much time I have left.
