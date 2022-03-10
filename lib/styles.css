@@ -15,6 +15,23 @@ body {
     padding-top: 20%;
 }
 
+.container_start {
+    display:flex;
+    flex-wrap: nowrap;
+    flex-direction:row;
+    justify-content:space-between;
+    margin-left: 2%;
+    margin-right: 2%;
+
+}
+
+.level-header_score {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+}
+
+
 .title {
     display: block;
     position: relative;
@@ -22,6 +39,19 @@ body {
     font-family: 'Staatliches', cursive;
     font-size:70px;
     text-align: center;
+}
+
+.score {
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 2px;
+}
+
+.title-start {
+    display: block;
+    position: relative;
+    letter-spacing:1px;
+    font-family: 'Staatliches', cursive;
+    font-size: 30px;
 }
 
 .button {
