@@ -1,6 +1,57 @@
+
+body {
+    background-color: rgb(252, 178, 149);
+}
+
 .container {
     display:flex;
     flex-wrap: wrap;
-    height: 300px;
-    width: 500px;
+    justify-content:center;
+    align-content: center;
+    height: 100%;
+    width:100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 20%;
+}
+
+.title {
+    display: block;
+    position: relative;
+    letter-spacing:10px;
+    font-family: 'Staatliches', cursive;
+    font-size:70px;
+    text-align: center;
+}
+
+.button {
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 2rem;
+    animation: 2s linear infinite blink;
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+@keyframes blink {
+    0%,
+    100% {
+        opacity:1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+}
+
+.homepage main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
