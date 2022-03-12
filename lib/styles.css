@@ -86,14 +86,24 @@ a {
     text-align: center;
 }
 
+/* Code for the second JS <start.js> */
+
+
 .grid {
     display: flex;
     flex-wrap: wrap;
-    height: 3456px;
-    width: 2688px;
+    justify-content: center;
+    align-items: center;
+    max-height: 500px;
+    max-width: 500px;
+    margin-left: 30%;
 }
 
 .empty-space {
-    margin: 2px;
-    max-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin: 5px;
+    max-height: 150px;
+    max-width: 100px;
 }
