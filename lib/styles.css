@@ -85,3 +85,15 @@ a {
     align-items: center;
     text-align: center;
 }
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    height: 3456px;
+    width: 2688px;
+}
+
+.empty-space {
+    margin: 2px;
+    max-height: 50px;
+}
