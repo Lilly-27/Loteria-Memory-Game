@@ -94,8 +94,10 @@ a {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    max-height: 500px;
-    max-width: 500px;
+    min-height: 600px;
+    min-width: 600px;
+    max-height: 600px;
+    max-width: 600px;
     margin-left: 30%;
 }
 
@@ -104,6 +106,47 @@ a {
     justify-content: center;
     align-items:center;
     margin: 5px;
-    max-height: 150px;
-    max-width: 100px;
+    max-height: 200px;
+    max-width: 150px;
+}
+
+.modal {
+    background-color: rgba(0,0,0,0.4);
+    position: fixed;
+    top:0;
+    left:0;
+    height: 100%;
+    width: 100%;
+    z-index:1;
+    overflow: auto;
+    display:none;
+}
+
+.modal-message {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(245, 245, 245);
+    height: 200px;
+    width: 450px;
+    border-radius: 2px;
+    margin:150px auto;
+    box-shadow: 0 2px 2 px rgba(0,0,0,0.2);
+    padding: 2%;
+}
+
+.modal-title {
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 2px;
+}
+
+
+#restart{
+    border:none;
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 1rem;
+    animation: 2s linear infinite blink; 
+    
 }

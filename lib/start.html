@@ -8,7 +8,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <title>Loteria Memory Game</title>
+    <script src="start.js" defer></script>
+    <title>Start | Loteria Memory Game</title>
 </head>
 <body class ="start start-page" id="bodyId">
     <main>
@@ -23,15 +24,17 @@
                 </div>
             </div>
         </header>
-
-    
-        <div class="grid"></div>
-
-        <div class ="flip-card">
-        </div>
-
-
+            <div class="grid"></div>
+            <div class ="flip-card"></div>
     </main>
-    <script src="start.js"></script>
+
+    <div class ="modal">
+        <div class ="modal-message">
+            <h1 class="modal-title">You matched them all</h1>
+            <h1 class="modal-title">¡Felicidades!</h1>
+            <a id="restart" href="index.html">Play again</a>
+        </div>
+    </div>
+
 </body>
 </html>
