@@ -2,6 +2,8 @@
 
 This game was inspired by the Latinx game Cecilia grew up playing with her family called, "Loteria." Cecilia hopes to celebrate Latinx culture, and welcomes users to enjoy her game! 
 
+[Click here to the Loteria Memory Game](https://lilly-27.github.io/Loteria-Memory-Game/start.html)
+
 ## SCREENSHOTS
 ---
 When the game opens, you will see this homepage: 
