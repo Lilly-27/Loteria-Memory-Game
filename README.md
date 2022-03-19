@@ -5,12 +5,12 @@ This game was inspired by the Latinx game Cecilia grew up playing with her famil
 ## SCREENSHOTS
 ---
 When the game opens, you will see this homepage: 
-![Homepage of Loteria Memory Game] (lib/screenshots/home.png)
+![Homepage of Loteria Memory Game](lib/screenshots/home.png)
 
 Once you click on "Jugar," then the cards will appear! 
-![Initial Start Page of Loteria Memory Game] (lib/screenshots/startpage.png)
+![Initial Start Page of Loteria Memory Game](lib/screenshots/startpage.png)
 
-##Technologies Used
+## TECHNOLOGIES USED
 ---
 Front-end: HTML5, CSS3, and vanilla JavaScript
 
